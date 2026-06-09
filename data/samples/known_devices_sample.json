@@ -1,0 +1,44 @@
+{
+  "asset": {
+    "mac":    { "value": "b8:a4:4f:ab:cd:ef" },
+    "oui":    "b8:a4:4f",
+    "vendor": { "value": "Axis Communications AB" }
+  },
+  "ingest": {
+    "file":   { "name": "example-bucket/example-tenant/known_devices/2026-01-01/known_devices_2026-01-01_14:00:00-15:00:00+0000.log.gz" },
+    "parser": { "name": "example.parser:corelight-json-gz:1.0.0" }
+  },
+  "event": {
+    "id":       "Kf1yhXZkG1Qsi",
+    "duration": null,
+    "ingested": "2026-01-01T03:09:37.018+00:00"
+  },
+  "host":    { "ip":  { "value": "10.50.180.66" } },
+  "network": {
+    "vlan":      { "id": "180" },
+    "protocol":  "DHCP",
+    "transport": "tcp"
+  },
+  "related": {
+    "ip":  { "value": "10.50.180.66" },
+    "mac": { "value": "b8:a4:4f:ab:cd:ef" },
+    "transport": "tcp"
+  },
+  "schema": {
+    "version":         "1.0.0-example",
+    "mapping_version": "1.0.0-example"
+  },
+  "timestamp": "2026-01-01T14:43:04.043+00:00",
+  "zeek": {
+    "known_devices": {
+      "kuid":                 "Kf1yhXZkG1Qsi",
+      "num_conns":            1,
+      "long_conns":           0,
+      "last_active_session":  "KfknQJIxsNVXj",
+      "last_active_interval": 21601.109288930893
+    }
+  },
+  "_id":               "example-record-001",
+  "_timestamp":        "2026-01-01T14:43:04.043+00:00",
+  "_ingest_timestamp": "2026-01-01T03:11:46.352+00:00"
+}

@@ -1,0 +1,96 @@
+raw_vendor,cpe_vendor,notes
+Axis Communications AB,axis,IP cameras / access control / encoders
+Axis Communications,axis,Alternate name without legal suffix
+Microsoft Corporation,microsoft,
+Microsoft,microsoft,
+Cisco Systems,cisco,
+Cisco Systems Inc,cisco,
+Cisco Systems Inc.,cisco,
+"Cisco, Inc.",cisco,
+Hewlett Packard Enterprise,hpe,
+Hewlett-Packard,hp,
+HP Inc.,hp,
+Dell Technologies,dell,
+Dell Inc.,dell,
+Dell,dell,
+Juniper Networks,juniper,
+Palo Alto Networks,paloaltonetworks,
+Fortinet Inc,fortinet,
+Fortinet,fortinet,
+Check Point Software Technologies,checkpoint,
+F5 Networks,f5,Now F5 Inc.
+F5 Inc,f5,
+Arista Networks,arista,
+Extreme Networks,extremenetworks,
+NetApp,netapp,
+VMware Inc.,vmware,Now under Broadcom
+VMware,vmware,
+Citrix Systems,citrix,
+SonicWall,sonicwall,
+WatchGuard Technologies,watchguard,
+Hikvision Digital Technology,hikvision,IP cameras / NVRs
+Dahua Technology,dahua,IP cameras / DVRs
+Bosch Security Systems,bosch,Security and CCTV
+Honeywell,honeywell,Building control / security
+Siemens AG,siemens,Industrial control / building automation
+Siemens,siemens,
+Schneider Electric,schneider-electric,Industrial control / power
+Rockwell Automation,rockwellautomation,Industrial control (Allen-Bradley)
+Allen-Bradley,rockwellautomation,Brand of Rockwell Automation
+ABB Ltd,abb,Industrial control / power
+Mitsubishi Electric,mitsubishielectric,Industrial control
+Omron Corporation,omron,Industrial control
+Phoenix Contact,phoenix,Industrial control / connectors
+Yokogawa Electric,yokogawa,Industrial process control
+Emerson Electric,emerson,Industrial / building automation
+General Electric,ge,Multiple sectors — disambiguate by product
+Honeywell International,honeywell,
+Apple Inc.,apple,
+Samsung Electronics,samsung,
+Sony Corporation,sony,
+LG Electronics,lg,
+Lenovo,lenovo,
+ASUSTeK Computer,asus,
+ASUS,asus,
+GIGA-BYTE Technology,gigabyte,
+Intel Corporate,intel,Often appears as NIC vendor
+Intel,intel,
+Realtek Semiconductor,realtek,Often appears as NIC vendor
+Broadcom,broadcom,
+Marvell Technology Group,marvell,
+Brother Industries,brother,Printers
+Canon Inc.,canon,Printers / cameras
+Canon,canon,
+Epson,epson,Printers
+Hewlett-Packard Company,hp,Printers (older naming)
+Lexmark International,lexmark,Printers
+Ricoh Company,ricoh,Printers
+Xerox Corporation,xerox,Printers
+Zebra Technologies,zebra,Barcode / label printers
+APC American Power Conversion,apc,UPS / power
+Schneider Electric SA,schneider-electric,
+TP-Link Technologies,tp-link,Consumer networking
+NETGEAR,netgear,Consumer / SMB networking
+D-Link,dlink,Consumer / SMB networking
+Ubiquiti Networks,ubiquiti,Wireless / surveillance
+Aruba a Hewlett Packard Enterprise Company,arubanetworks,
+Aruba Networks,arubanetworks,
+Mist Systems,mist,Now part of Juniper
+Ruckus Wireless,ruckuswireless,
+Polycom,polycom,VoIP / video conferencing
+Cisco Webex,cisco,Conferencing
+Avaya,avaya,VoIP / telephony
+Mitel,mitel,VoIP / telephony
+Yealink Network Technology,yealink,VoIP phones
+Grandstream,grandstream,VoIP phones
+AudioCodes,audiocodes,VoIP gateways
+Sangoma Technologies,sangoma,VoIP
+3CX,3cx,VoIP / PBX
+Crestron Electronics,crestron,AV / building control
+Extron Electronics,extron,AV
+Biamp Systems,biamp,AV
+QSC Audio Products,qsc,AV
+Lutron Electronics,lutron,Lighting / building control
+Verkada,verkada,IP cameras / access control
+Avigilon,avigilon,IP cameras (now Motorola Solutions)
+Motorola Solutions,motorolasolutions,Public safety / cameras
