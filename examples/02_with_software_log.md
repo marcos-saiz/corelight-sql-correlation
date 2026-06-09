@@ -16,7 +16,7 @@ A row from `software.log` (sanitized example):
 
 ```json
 {
-  "host":     { "ip": { "value": "10.50.180.66" } },
+  "host":     { "ip": { "value": "10.5.1.6" } },
   "software": {
     "name":             "Apache",
     "version": {
@@ -56,14 +56,14 @@ FROM assets a
 JOIN software_observations s
     ON s.host_ip = a.most_recent_ip
     AND s.observed_at BETWEEN a.first_seen AND COALESCE(a.last_seen, NOW())
-WHERE s.host_ip = '10.50.180.66'
+WHERE s.host_ip = '10.5.1.6'
 ```
 
 Result row:
 
 | asset_mac | asset_vendor | asset_ip | asset_vlan | software_product | software_version |
 |---|---|---|---|---|---|
-| b8:a4:4f:ab:cd:ef | Axis Communications AB | 10.50.180.66 | 180 | Apache | 2.4.49 |
+| b8:a4:4f:ab:cd:ef | Axis Communications AB | 10.5.1.6 | 180 | Apache | 2.4.49 |
 
 ## Step 3 — Query NVD with the precise CPE
 
@@ -101,7 +101,7 @@ This is the kind of result that goes into a SOC's triage queue. You're no longer
   "asset": {
     "mac":  "b8:a4:4f:ab:cd:ef",
     "vendor_raw": "Axis Communications AB",
-    "ip":   "10.50.180.66",
+    "ip":   "10.5.1.6",
     "vlan": "180"
   },
   "software_observed": [
