@@ -15,7 +15,7 @@ The input record:
     "oui":    "b8:a4:4f",
     "vendor": { "value": "Axis Communications AB" }
   },
-  "host":    { "ip": { "value": "10.50.180.66" } },
+  "host":    { "ip": { "value": "10.5.1.6" } },
   "network": { "vlan": { "id": "180" }, "protocol": "DHCP", "transport": "tcp" },
   "timestamp": "2026-01-01T14:43:04.043+00:00"
 }
@@ -84,7 +84,7 @@ The result is `enriched.json` with the original asset data plus:
     "vendor_raw": "Axis Communications AB",
     "vendor_cpe": "axis",
     "cpe_match_string": "cpe:2.3:*:axis:*:*:*:*:*:*:*",
-    "ip":   "10.50.180.66",
+    "ip":   "10.5.1.6",
     "vlan": "180"
   },
   "cve_summary": {
